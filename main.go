@@ -79,7 +79,7 @@ func main() {
     }
 
     if showVersion {
-        fmt.Println("\ntwrpwipe v1.1.0\nby PhateValleyman\nJonas.Ned@outlook.com\n")
+    	fmt.Printf("%stwrpwipe%s v1.2.0\nby PhateValleyman\nJonas.Ned@outlook.com\n\n", colorGreen, colorReset)
         return
     }
 
